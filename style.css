@@ -1,0 +1,92 @@
+/*
+ Theme Name:   Amadeus Child
+ Theme URI:    http://example.com/amadeus-child/
+ Description:  Amadeus Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     amadeus
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  amadeus-child
+*/
+.main-navigation {
+	border-top: none;
+	border-bottom: none;
+	background-color: transparent !important;
+}
+
+.branding-wrapper { 
+	background-color: transparent !important;
+}
+
+.site-header {
+	background-color: transparent !important;
+}
+
+#menu-item-115, #menu-item-30, #menu-item-29, #menu-item-31, #menu-item-32{
+	border-right: none;
+}
+li a:hover{
+	text-decoration: none;
+}
+li a:active{
+	text-decoration: none !important;
+}
+
+li a:visited{
+	text-decoration: none !important;
+}
+
+li a:link{
+	text-decoration: none !important;
+}
+.site-title a:hover{
+	text-decoration: none;
+}
+.site-title a:focus{
+	text-decoration: none;
+}
+.site-title a:active{
+	text-decoration: none !important;
+}
+.hentry{
+	border: none;
+}
+#masthead{
+	font-family: Special Elite;
+}
+
+.page-id-5 .hentry {
+	margin: 0px;
+	background-color: transparent !important;
+	border: 0px solid #e0e0e0;
+}
+
+.page-id-5 {
+	background-image: url("http://www.plantlanguagehealing.com/wp-content/uploads/2016/08/indian-paintbrush.jpg");
+	/*background-attachment: fixed;*/
+	background-position: top right;
+	background-repeat: repeat;
+}
+.page-id-5 .site-description{
+color: #fff !important;}
+
+.single-post #secondary {
+     display: none;
+}
+
+.single-post #primary {
+     width: 100% !important;
+}
+
+#colophon{
+font-family: Special Elite;
+font-size: 16px;
+}
+.site-description{
+color:#404040 !important;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-size: 25px;}
