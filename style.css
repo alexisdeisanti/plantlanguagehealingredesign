@@ -11,6 +11,18 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  amadeus-child
 */
+
+
+@font-face {
+    font-family: 'berimbaumedium';
+    src: url('/public_html/wp-content/themes/amadeus/fonts/berimbau-webfont.woff2') format('woff2'),
+         url('/public_html/wp-content/themes/amadeus/fonts/berimbau-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Berimbau' !important; 
+    src: url("/wp-content/themes/amadeus/fonts/Berimbau.ttf") format('truetype'); 
+  
+}
 .main-navigation {
 	border-top: none;
 	border-bottom: none;
@@ -27,7 +39,15 @@
 
 #menu-item-115, #menu-item-30, #menu-item-29, #menu-item-31, #menu-item-32{
 	border-right: none;
+	font-size: 14px;
+	font-family: 'Andika', sans-serif !important;
 }
+#menu-item-118{
+font-size: 14px;
+font-family: 'Andika', sans-serif !important;
+
+}
+
 li a:hover{
 	text-decoration: none;
 }
@@ -53,9 +73,12 @@ li a:link{
 }
 .hentry{
 	border: none;
+	color: #4d4d4d !important;
 }
 #masthead{
-	font-family: Special Elite;
+	font-family: 'Berimbau', 'berimbaumedium' !important;
+
+
 }
 
 .page-id-5 .hentry {
@@ -65,7 +88,7 @@ li a:link{
 }
 
 .page-id-5 {
-	background-image: url("http://www.plantlanguagehealing.com/wp-content/uploads/2016/08/indian-paintbrush.jpg");
+	background-image: url("http://www.plantlanguagehealing.com/wp-content/uploads/2016/08/indian-paintbrushedit.jpg");
 	/*background-attachment: fixed;*/
 	background-position: top right;
 	background-repeat: repeat;
@@ -82,11 +105,33 @@ color: #fff !important;}
 }
 
 #colophon{
-font-family: Special Elite;
-font-size: 16px;
+font-family: 'Berimbau' 'berimbaumedium' !important;
+font-size: 16px !important;
+text-align: right;
 }
 .site-description{
 color:#404040 !important;
+font-family: 'Berimbau' 'berimbaumedium' !important;
 font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Josefin Slab', serif;
 font-size: 25px;}
+
+.site-title{
+font-size: 92px !important;
+letter-spacing: 6px;}
+
+.site-main{
+color:#4d4d4d !important;
+} 
+h1{
+color:#C7611F !important;
+font-family: 'Berimbau' 'berimbaumedium' !important;
+}
+h3{
+color: #FA8527 !important;
+font-family: 'Berimbau' 'berimbaumedium' !important;
+}
+
+@media (min-width: 1200px)
+{.container {
+    width: 930px;}
+}
